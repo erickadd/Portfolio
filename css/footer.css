@@ -1,0 +1,99 @@
+/* ===== FOOTER ===== */
+.footer-basic {
+    padding: 40px 20px;
+    background: #2d3436;
+    color: white;
+    text-align: center;
+}
+
+.footer-basic h4 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.github {
+    background: #333;
+}
+
+.gmail {
+    background: #d44638;
+}
+
+.social a:hover {
+    transform: translateY(-5px);
+    border-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-links {
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.contact-links a {
+    color: #a29bfe;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-links a:hover {
+    color: #6c5ce7;
+    text-decoration: underline;
+}
+
+.contact-links br {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .footer-basic {
+        padding: 30px 15px;
+    }
+    
+    .footer-basic h4 {
+        font-size: 1.5rem;
+    }
+    
+    .social a {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+    
+    .contact-links {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .contact-links br {
+        display: block;
+    }
+}
